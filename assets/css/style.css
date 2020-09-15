@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* background color for page */
 body {
     background-color: #d9dcd6;
 }
 
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ body {
     color: #ffffff;
 }
 
+/* Horiseon logo styling in header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Navigation bar design and styling */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +50,12 @@ a {
     text-decoration: none;
 }
 
+/* Setting font size for all paragraphs on page */
 p {
     font-size: 16px;
 }
 
+/* Dimensions for .hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* Setting locations for images with text in .content */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +76,14 @@ p {
     margin-left: 25px;
 }
 
+/* Dimensions of section .content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +96,7 @@ p {
 }
 
 .benefit-blurb {
-    margin-bottom: 32px;
+    margin-bottom: 15px;
     color: #ffffff;
 }
 
@@ -102,6 +111,7 @@ p {
     max-width: 150px;
 }
 
+/* Styling for articles .online */
 .online {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +130,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling for footer */
 .footer {
     padding: 30px;
     clear: both;
